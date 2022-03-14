@@ -1,0 +1,7 @@
+{
+    "nuxt.isNuxtApp": false,
+    "vscode-pets.petColor": "yellow",
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.petType": "rocky",
+    "vscode-pets.theme": "forest"
+}

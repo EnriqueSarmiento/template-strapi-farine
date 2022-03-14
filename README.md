@@ -1,1 +1,0 @@
-# template-strapi-farine

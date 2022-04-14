@@ -28,6 +28,12 @@
     },
     "user_id": {
       "type": "integer"
+    },
+    "shippingAddress": {
+      "type": "json"
+    },
+    "fullName": {
+      "type": "string"
     }
   }
 }

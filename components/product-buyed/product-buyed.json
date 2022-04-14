@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_buyed_product_buyeds",
+  "info": {
+    "name": "productBuyed",
+    "icon": "money-check-alt"
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "integer"
+    },
+    "id_product": {
+      "type": "integer"
+    }
+  }
+}

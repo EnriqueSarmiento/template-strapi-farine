@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "name": "invoices"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "paid": {
+      "type": "boolean"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-buyed.product-buyed"
+    },
+    "payment_id": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    }
+  }
+}

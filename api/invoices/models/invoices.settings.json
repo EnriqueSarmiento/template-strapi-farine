@@ -34,6 +34,15 @@
     },
     "fullName": {
       "type": "string"
+    },
+    "cardType": {
+      "type": "string"
+    },
+    "cardKind": {
+      "type": "string"
+    },
+    "cardLast": {
+      "type": "string"
     }
   }
 }
